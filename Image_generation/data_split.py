@@ -16,8 +16,8 @@ def _split_data(file_path, test_path):
 
 
 def main():
-    file_path = './data/CelebA/img_align_celeba/'
-    test_path = './data/test/'
+    file_path = '../input/img-align-celeba/img_align_celeba/'
+    test_path = '../input/test/'
     if not os.path.exists(test_path):
         os.makedirs(test_path)
     
