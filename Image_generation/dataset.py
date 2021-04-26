@@ -102,7 +102,7 @@ if __name__ == '__main__':
         transforms.Resize((64, 64)),
         transforms.ToTensor(),])
 
-    dset = CustomImageFolder('data/CelebA', transform)
+    dset = CustomImageFolder('../input/celeba/img_align_celeba', transform)
     loader = DataLoader(dset,
                        batch_size=32,
                        shuffle=True,
