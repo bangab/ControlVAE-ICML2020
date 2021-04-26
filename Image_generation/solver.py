@@ -105,7 +105,7 @@ class Solver(object):
         elif args.dataset.lower() == '3dchairs':
             self.nc = 3
             self.decoder_dist = 'gaussian'
-        elif args.dataset.lower() == 'celeba':
+        elif args.dataset.lower() == 'img_align_celeba':
             self.nc = 3
             self.decoder_dist = 'gaussian'
         else:
